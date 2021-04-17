@@ -1,0 +1,50 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+background-color: #150e56;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  border: 5px dotted #b0efeb;
+  padding: 100px;
+  color: #b0efeb;
+  text-align: center
+}
+
+.play-button {
+  background-color: #1597bb;
+  margin-top: 60px;
+  margin-left: 250px;
+  margin-right: 250px;
+  border-radius: 3px;
+  padding: 12px;
+  opacity: 0.7;
+}
+
+.play-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.play-button:hover {
+  opacity: 1;
+}
+
+.grid-letters {
+  display: flex;
+}
+
+.letter {
+  padding: 20px;
+  background-color: #2978b5;
+  color: white;
+  margin-right: 20px;
+  box-shadow: 3px 3px #88888888;
+}
+
+form {
+  margin-top: 25px;
+}
